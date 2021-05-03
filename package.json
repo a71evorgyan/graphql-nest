@@ -1,7 +1,7 @@
 {
   "name": "graphql-nest",
   "version": "1.0.0",
-  "description": "",
+  "description": "Simple graphQL backend service with NestJS & Typescript",
   "scripts": {
     "typegen": "ts-node src/types/generate-typings.ts",
     "prebuild": "rimraf dist",
