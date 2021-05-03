@@ -7,7 +7,7 @@ export class BooksResolver {
   constructor(private readonly booksService: BooksService) {}
 
   @Query("books")
-  getBooks(@Args("search") search: string): [Book] {
+  getBooks(@Args("search") search: string): Book[] {
     return this.booksService.searchBooks(search);
   }
 
