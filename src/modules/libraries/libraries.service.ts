@@ -1,12 +1,17 @@
 import { Injectable } from "@nestjs/common";
-import { Library } from "../../types";
-import * as data from "../../db/mock_data.json";
+
+import data from "../../db/mock_data.json";
+
+import type { Library, ILibraryService } from "../../types";
 
 @Injectable()
-export class LibrariesService {
-  private readonly libraries: Library[] = data.libraries;
+export class LibrariesService implements ILibraryService {
+  private readonly libraries: Library[];
+  constructor() {
+    this.libraries = data.libraries;
+  }
 
-  findOneById(id: number): Library {
+  findOneById(id: number) {
     return this.libraries.find((lib) => lib.id === id);
   }
 }
