@@ -1,0 +1,25 @@
+type Query {
+  books(search: String): [Book]
+  booksCount(startingDate: String!): Count
+}
+
+type Mutation {
+  changeBookTitle(id: Int!, title: String!): Book
+}
+
+type Count {
+  count: Int
+}
+
+type Library {
+  id: Int!
+  title: String!
+}
+
+type Book {
+  id: Int
+  title: String
+  created: String
+  library: Library
+}
+
