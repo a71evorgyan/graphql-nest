@@ -1,0 +1,26 @@
+{
+  "libraries": [
+    { "id": 1, "title": "1" },
+    { "id": 2, "title": "2" },
+    { "id": 3, "title": "3" },
+    { "id": 4, "title": "4" },
+    { "id": 5, "title": "5" },
+    { "id": 6, "title": "6" },
+    { "id": 7, "title": "7" },
+    { "id": 8, "title": "8" },
+    { "id": 9, "title": "9" },
+    { "id": 10, "title": "10" }
+  ],
+  "books": [
+    { "id": 1, "title": "THE HOUSE OF MIRTH", "libraryId": 1, "created": "1/20/2021" },
+    { "id": 2, "title": "EAST OF EDEN", "libraryId": 2, "created": "2/24/2021" },
+    { "id": 3, "title": "A SCANNER DARKLY ", "libraryId": 3, "created": "3/4/2021" },
+    { "id": 4, "title": "MOAB IS MY WASHPOT", "libraryId": 4, "created": "10/17/2020" },
+    { "id": 5, "title": "To Kill a Mockingbird", "libraryId": 5, "created": "4/16/2021" },
+    { "id": 6, "title": "The Great Gatsby", "libraryId": 6, "created": "10/16/2020" },
+    { "id": 7, "title": "One Hundred Years of Solitude", "libraryId": 7, "created": "3/21/2021" },
+    { "id": 8, "title": "A Passage to India", "libraryId": 8, "created": "10/12/2020" },
+    { "id": 9, "title": "Invisible Man", "libraryId": 9, "created": "6/8/2020" },
+    { "id": 10, "title": "Don Quixote", "libraryId": 10, "created": "6/27/2020" }
+  ]
+}
